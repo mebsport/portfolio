@@ -35,13 +35,6 @@ const Hello = styled.h1`
 `;
 
 function App() {
-  useEffect(() => {
-    const eventHandler = (e) => e.preventDefault();
-
-    window.addEventListener('contextmenu', eventHandler);
-    return () => window.removeEventListener('contextmenu', eventHandler);
-  }, []);
-
   return (
     <div className='App'>
       <Hello>Hi, I'm Marcelus</Hello>
