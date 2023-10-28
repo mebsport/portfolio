@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg';
 import './App.css';
 import styled from 'styled-components';
 import { useEffect } from 'react';
+import AboutMe from './components/AboutMe';
 
 const Hello = styled.h1`
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -37,7 +38,16 @@ const Hello = styled.h1`
 function App() {
   return (
     <div className='App'>
-      <Hello>Hi, I'm Marcelus</Hello>
+      <div className='Intro'>
+        <Hello>Hi, I'm Marcelus</Hello>
+      </div>
+      <div className='Content'>
+        <AboutMe 
+        question='Who am I?'
+        answerParagraph='I am Marcelus, a programmer, photographer, DJ, and I love to tinker. I was born and raised in Windsor, Connecticut. I love all things cars, and all things robotics. Continue scrolling to find out what I am currently working on.'
+        image='/20230616-IMG_7392.jpg'
+        />
+      </div>
     </div>
   );
 }
