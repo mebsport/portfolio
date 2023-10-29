@@ -48,6 +48,7 @@ function App() {
         image='/20230616-IMG_7392.jpg'
         />
       </div>
+      
     </div>
   );
 }
