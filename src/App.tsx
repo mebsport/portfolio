@@ -32,6 +32,7 @@ const Hello = styled.h1`
     50% {
       border-color: #0000ff;
     }
+    
   }
 `;
 
@@ -42,13 +43,12 @@ function App() {
         <Hello>Hi, I'm Marcelus</Hello>
       </div>
       <div className='Content'>
-        <AboutMe 
-        question='Who am I?'
-        answerParagraph='I am Marcelus, a programmer, photographer, DJ, and I love to tinker. I was born and raised in Windsor, Connecticut. I love all things cars, and all things robotics. Continue scrolling to find out what I am currently working on.'
-        image='/20230616-IMG_7392.jpg'
+        <AboutMe
+          question='Who am I?'
+          answerParagraph='I am Marcelus, a programmer, photographer, DJ, and I love to tinker. I was born and raised in Windsor, Connecticut. I love all things cars, and all things robotics. Continue scrolling to find out what I am currently working on. I have always had a love for all things STEAM and have been a part of FIRST robotics since a young age. I plan to continue my educaiton in the field of Computer Science and Engineering.'
+          image='/20230616-IMG_7392.jpg'
         />
       </div>
-      
     </div>
   );
 }
